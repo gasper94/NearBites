@@ -77,15 +77,15 @@ class CollectionBusinessCell: UICollectionViewCell {
     @IBOutlet weak var businessPrice: UILabel!
     @IBOutlet weak var phone: UILabel!
     @IBAction func DirectionsButton(_ sender: UIButton) {
-        viewcontroller.showControllerForDirections(currBusiness: currentRestaurant)
-        //        let latitude:CLLocationDegrees = lat
-        //        let longitude: CLLocationDegrees = long
-        //        let coordinates = CLLocationCoordinate2DMake(latitude, longitude)
-        //        let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
-        //        let mapitem = MKMapItem(placemark: placemark)
-        //        let options = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving]
-        //        mapitem.name = businessName.text
-        //        mapitem.openInMaps(launchOptions: options)
+//         viewcontroller.showControllerForDirections(currBusiness: currentRestaurant)
+               let latitude:CLLocationDegrees = lat
+               let longitude: CLLocationDegrees = long
+               let coordinates = CLLocationCoordinate2DMake(latitude, longitude)
+               let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
+               let mapitem = MKMapItem(placemark: placemark)
+               let options = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving]
+               mapitem.name = businessName.text
+               mapitem.openInMaps(launchOptions: options)
     }
     
     var lat = 0.0
