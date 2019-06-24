@@ -31,13 +31,13 @@ What will app do: Display closest restaurants using Yelp's API
 
 
 STEP 1:  (github project- Ulises)
-                    -  our  current location (6 hours) paul
-                    -  search term (1 hour) all
+                    - our  current location (6 hours) paul
+                    - search term (1 hour) all
                     - print information (10 min) all
                     - store information in object (6 hrs) Simon
                     - Display on view (4 hrs) Ulises
 
-<img src= "hhttp://g.recordit.co/gKpQlrYf9j.gif" width=250><br>
+<img src= "http://g.recordit.co/gKpQlrYf9j.gif" width=250><br>
 
 - Install: 
     1. Clone
